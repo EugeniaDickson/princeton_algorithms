@@ -1,6 +1,6 @@
 '''
 This is a Python implementation of Percolation problem
-from Princeton "Algorithms, Parth 1" course:
+from Princeton "Algorithms, Part 1" course:
 https://www.coursera.org/learn/algorithms-part1/
 
 Important Note: I wrote this code having no idea about time complexity.
