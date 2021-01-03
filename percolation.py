@@ -15,7 +15,6 @@ class Percolation(object):
     # creates n-by-n grid, with all sites initially blocked
     def __init__(self, n):
         self._num = n
-        self._sz = [1] * n ** 2
         self._num_open = 0
         self._top_id = []
         self._bottom_id = []
@@ -25,6 +24,7 @@ class Percolation(object):
     def _reset(self):
         self._sys = [0 for i in range(self._num * self._num)]
         self._id = [i for i in range(self._num * self._num)]
+        self._sz = [1] * self._num ** 2
         self._num_open = 0
     
     #get index of element in list by row/col
