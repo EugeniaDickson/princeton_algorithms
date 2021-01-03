@@ -3,7 +3,7 @@ This is a Python implementation of Percolation problem
 from Princeton "Algorithms, Parth 1" course:
 https://www.coursera.org/learn/algorithms-part1/
 
-Important Note: I wrote this code having no idea about time comlexity.
+Important Note: I wrote this code having no idea about time complexity.
 I'll probably alter it later on when I know more about it.
 Feedback would be greatly appreciated!
 '''
