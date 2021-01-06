@@ -50,7 +50,6 @@ class Percolation(object):
         else:
             self._id[j] = i
             self._sz[i] += self._sz[j]
-        pass
     
     #is one site connected to the other?
     def isConnected(self, row1, col1, row2, col2):
